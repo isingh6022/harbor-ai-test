@@ -1,0 +1,57 @@
+{
+    "id": "86ac3a40-b587-4442-9dca-713ae870aa12",
+    "started_at": "2026-10-18T16:49:04.247541",
+    "updated_at": "2026-10-18T16:51:40.554483",
+    "finished_at": "2026-10-18T16:51:40.554483",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "builtin_sorted_ms": 14.729,
+                        "reward": 1.0,
+                        "solution_ms": 257.849,
+                        "speed_vs_builtin": 0.0571
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1": [
+                            "fast-sort__PKmfUqg"
+                        ]
+                    },
+                    "solution_ms": {
+                        "257.849": [
+                            "fast-sort__PKmfUqg"
+                        ]
+                    },
+                    "builtin_sorted_ms": {
+                        "14.729": [
+                            "fast-sort__PKmfUqg"
+                        ]
+                    },
+                    "speed_vs_builtin": {
+                        "0.0571": [
+                            "fast-sort__PKmfUqg"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}
