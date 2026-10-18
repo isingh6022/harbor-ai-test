@@ -1,0 +1,12 @@
+{
+    "task": {
+        "path": "fast-sort"
+    },
+    "trial_name": "fast-sort__U3C9L7J",
+    "trials_dir": "jobs/2026-10-18__18-08-21",
+    "agent": {
+        "name": "claude-code",
+        "model_name": "anthropic/claude-opus-5-5"
+    },
+    "job_id": "ee714b90-22bd-45be-8298-9617e34fd2da"
+}

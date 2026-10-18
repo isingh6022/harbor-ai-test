@@ -1,0 +1,14 @@
+{
+    "job_name": "2026-10-18__18-08-21",
+    "agents": [
+        {
+            "name": "claude-code",
+            "model_name": "anthropic/claude-opus-5-5"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "fast-sort"
+        }
+    ]
+}

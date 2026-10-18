@@ -1,0 +1,35 @@
+downloading uv 0.8.17 x86_64-unknown-linux-gnu
+no checksums to verify
+installing to /root/.local/bin
+  uv
+  uvx
+everything's installed!
+
+To add $HOME/.local/bin to your PATH, either restart your shell or run:
+
+    source $HOME/.local/bin/env (sh, bash, zsh)
+    source $HOME/.local/bin/env.fish (fish)
+Downloading pygments (1.2MiB)
+ Downloading pygments
+Installed 5 packages in 19ms
+============================= test session starts ==============================
+platform linux -- Python 3.12.15, pytest-8.4.1, pluggy-1.7.0
+rootdir: /tests
+collected 5 items
+
+../tests/test_outputs.py .....                                           [100%]
+
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED ../tests/test_outputs.py::test_no_builtin_sorting
+PASSED ../tests/test_outputs.py::test_edge_cases
+PASSED ../tests/test_outputs.py::test_random_sizes
+PASSED ../tests/test_outputs.py::test_already_sorted_and_reversed
+PASSED ../tests/test_outputs.py::test_full_size_is_reasonably_fast
+============================== 5 passed in 0.22s ===============================
+{
+  "reward": 1,
+  "solution_ms": 40.798,
+  "builtin_sorted_ms": 17.745,
+  "speed_vs_builtin": 0.435
+}

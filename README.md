@@ -26,7 +26,8 @@ harbor run -p fast-sort -a oracle
 
 # Run a real agent
 export ANTHROPIC_API_KEY=...
-harbor run -p fast-sort -a claude-code -m anthropic/claude-opus-5-5
+# Or add this key to env file as ANTHROPIC_API_KEY=...
+harbor run -p fast-sort -a claude-code -m anthropic/claude-opus-5-5 --env-file .env
 ```
 
 Results are stored in `jobs/`.

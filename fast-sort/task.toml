@@ -1,4 +1,6 @@
 schema_version = "1.4"
+# Files copied out of the container into each trial's artifacts/ folder.
+artifacts = ["/app/sort.py"]
 
 [task]
 name = "inderpal/fast-sort"
