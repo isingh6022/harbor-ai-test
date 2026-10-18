@@ -31,3 +31,5 @@ harbor run -p fast-sort -a claude-code -m anthropic/claude-opus-5-5 --env-file .
 ```
 
 Results are stored in `jobs/`.
+
+For reference, 2 outputs - one using the provided solve and one from an llm have also been included in the repository in jobs folder. (Otherwise this folder is ignored.)
